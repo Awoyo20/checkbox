@@ -1,0 +1,48 @@
+.bg{
+    color: aqua;
+}
+
+label{
+    display: block;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+}
+
+input{
+    position: absolute; transform: scale(0);
+}
+input:checked ~ .checkbox{
+    transform: rotate(45deg);
+    width: 20px;
+    margin-left: 16px;
+    border-color: aqua;
+    border-top-color: black;
+    border-top-color: white;
+    border-radius: 0;
+}
+.chechbox{
+    display: block;
+    width: inherit;
+    height: inherit;
+    border: 5px solid palevioletred;
+    border-radius: 6px;
+    transition: all 0 375s;
+}
+.box{
+    margin: 20px;
+    height: 250px;
+    background: pink;
+    box-shadow: 10px 10px black;
+    text-align: center;
+}
+.menu-btn{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80px;
+    height: 80px;
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+}
